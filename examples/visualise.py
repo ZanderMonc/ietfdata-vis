@@ -61,7 +61,10 @@ plt.text(2, streams['Legacy'], f"Legacy={streams['Legacy'] / total * 100:4.1f}%"
 plt.text(3, streams['IAB'], f"IAB={streams['IAB'] / total * 100:4.1f}%", ha='center', va='bottom')
 
 plt.legend()
+#save plot to file
+plt.savefig('rfc-streams1.png')
 plt.show()
+
 
 # =============================================================================
 
